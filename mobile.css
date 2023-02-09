@@ -1,5 +1,8 @@
 /*mobile height 932px and width 430px*/
 @media screen and (max-width:431px) {
+    *{
+        overflow-x: hidden;
+    }
     /*page1*/
     .small-logo{
         width: 4rem;
