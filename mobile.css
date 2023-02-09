@@ -1,0 +1,122 @@
+/*mobile height 932px and width 430px*/
+@media screen and (max-width:431px) {
+    /*page1*/
+    .small-logo{
+        width: 4rem;
+        height: 4rem;
+    }
+    .msp1{
+        font-size: 25px;
+    }
+    nav hr{
+        top:32rem ;
+    }
+    .login{
+        margin-top: 30px;
+    }
+    .content p{
+        width: 80%;
+        font-size: 2.8rem;
+    }
+    .main-section{
+        padding: 5rem 0 0 2rem;
+    }
+    .pictures{
+        width: 70px;
+        height: 70px;
+    }
+    .search{
+        width: 90%;
+    }
+    .reach{
+        position: relative;
+        right: 37px;
+    }
+
+    /*page2*/
+    .discription{
+        color: white;
+        width: 25rem;
+        font-size: 17px;
+    }
+    .viewbutton{
+        padding: 10px 40px;
+        font-size: 16px;
+        position: relative;
+        bottom: 10px;
+        right: 12rem;
+    }
+    .cards{
+        grid-template-columns: auto;
+        padding-left: 35px;
+    }
+    .options{
+        width: 340px;
+        height: 200px;
+        color: white;
+        border: 0.5px solid rgba(255, 255, 255, 0.319);
+    }
+    .name{
+        margin-left: 8rem;
+        margin-top: 0;
+        position: relative;
+        bottom: 4.8rem;
+    }
+    .name3{
+        font-size: 25px;
+    }
+    .job3{
+        font-size: 18px;
+    }
+    .job4{
+        font-size: 16px;
+    }
+    .jobtitle{
+        margin-left: 8rem;
+        position: relative;
+        bottom: 5rem;
+    
+    }
+    .viewbuttons{
+        margin-left: 0;
+        margin-top:0;
+        position: relative;
+        bottom: 3.5rem;
+        left: 2rem;
+    }
+
+    /*page3*/
+    .page3{
+        position: relative;
+        top: 100px;
+        height: 130vh;
+    }
+    #title{
+        font-size: 40px;
+        color: orangered;
+        padding: 0 40px 40px 40px;
+    
+    }
+    #discription{
+        font-size: 18px;
+        width: 26rem;
+        position: relative;
+        right: 4rem;
+        
+    }
+
+    /*footer*/
+    footer{
+        padding: 70px 30px;
+    }
+    #msp2{
+        font-size: 30px;
+        width: 20rem;
+    }
+    #ainshams2{
+        font-size: 19px;
+    }
+    #quote{
+        width: 25rem;
+    }
+}
