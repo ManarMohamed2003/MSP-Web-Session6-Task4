@@ -1,0 +1,125 @@
+/*tablet height 660px and width 768px*/
+
+@media screen and (max-width:768px) {
+    /*page1*/
+    
+    nav{
+        align-items: flex-start;
+    }
+    .background{
+        background-image: url("/images/background_blur.png");
+        background-size: cover;
+        height: 100vh;
+    }
+    .left{
+        align-items: flex-start;
+    }
+    nav ul {
+        margin-top: 30px;
+    }
+    nav ul li a{
+        font-size: 30px;
+    }
+    .toggle-icon{
+        display: block;
+    }
+    nav , .left , nav ul{
+        flex-direction: column;
+    }
+    .login{
+        margin-top: 140px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .login:hover{
+        color: orangered;
+    }
+    .links ,.login , .big-logo{
+        display: none;
+    }
+    .fa-xmark{
+        display: none;
+    }
+    .d-flex{
+        display: flex;
+        height: 40vh;
+    }
+    .msp-logo-combo{
+        display: flex;
+    }
+    .no-bars{
+        display: none;
+    }
+    .no-hr{
+        display: block;
+    }
+
+    /*page 2*/
+
+    .page2-title-section{
+        padding:0 20px 50px 40px;
+        align-items:center;
+    }
+    .discription{
+        color: white;
+        margin-top: 50px;
+        font-size: 20px;
+        width: 90%;
+    }
+    .viewbutton{
+        padding: 15px 50px;
+        font-size: 15px;
+    }
+    .cards{
+        grid-template-columns: auto auto;
+        row-gap: 30px;
+        column-gap: 30px;
+        padding-left: 30px;
+    }
+    .options{
+        width: 340px;
+        color: white;
+        border: 0.5px solid rgba(255, 255, 255, 0.319);
+    }
+    .viewbuttons{
+        border: 2px solid rgba(255, 255, 255, 0.319);
+    }
+    .viewbuttons .fa-solid{
+        color: rgba(255, 255, 255, 0.319)
+    }
+
+    /*page3*/
+
+    .page3{
+        height: 185vh;
+    }
+    #discription{
+        font-size: 25px;
+        width: 85%;
+        margin-left:70px;
+        
+    }
+    .dots , .most-popular{
+        display: none;
+    }
+    .rate
+    {
+        margin-right: 3rem;
+    }
+
+    /*footer*/
+    #quote{
+        width: 70%;
+    }
+
+    .com-sup-flex{
+        margin: 100px 0;
+    }
+
+    #block3 p {
+        width: 80%;
+    }
+    
+}

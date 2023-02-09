@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{   
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px 0 50px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.msp-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.small-logo{
+    width: 6rem;
+    height: 6rem;
+}
+.msp{
+    color: white;
+    font-weight: 700;
+    
+}
+.ainshams{
+    color: white;
+    font-weight: 700;
+    opacity: 0.5;
+}
+.msp1{
+    font-size: 30px;
+    display: none;
+}
+.ainshams1{
+    font-size: 15px;
+    display: none;
+
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+nav ul li a:hover{
+    color: orangered;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+nav hr{
+    height: 5px;
+    width: 13rem;   
+    background-color: orangered;
+    border-color: orangered;
+    position: absolute;
+    left: 2.8rem;
+    top:34rem ;
+    display: none;
+
+}
+@media screen and (min-width: 769px) {
+    .login{
+        background-color: white;
+        color: black;
+        padding: 15px 70px;
+        border-radius: 40px ;
+    } 
+    .page2{
+      background-color: white;
+    }
+    .options{
+        box-shadow: 20px 40px 40px 45px #88888852;
+    }
+
+    footer{
+        display: flex;
+        gap: 80px;
+    }
+    .parent{
+        justify-content: space-evenly;
+    }
+    
+} 
+.toggle-icon {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 65px;
+    right: 50px;
+    display: none;
+    cursor: pointer;
+}
+
+.main-section{
+    display: flex;
+    padding: 100px 100px 0 55px;
+    align-items: flex-start;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.upper-section{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.content p{
+    width: 70%;
+    font-weight: 300;
+    color: white;
+    font-size: 60px;
+}
+.app{
+    font-weight: 800;
+}
+.big-logo{
+    width: 650px;
+    height: 650px;
+    padding-bottom: 80px;
+    
+}
+.search{
+    background-image: url("/images/background_blur.png");
+    width: 80%;
+    padding: 12px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchicon{
+    width: 28px;
+    height: 28px; 
+}
+#arrow1{
+    font-size: 30px;
+    color: orangered;
+    
+}
+.views{
+    display: flex;
+    align-items: center;
+}
+.profiles{
+    display: flex;
+    flex-direction: row-reverse;
+    width: fit-content;
+}
+.pictures{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.pictures img{
+     width: 100%;
+
+}
+.pictures:first-child{
+    border: 5px solid #F25123;
+    z-index: 1;
+    right: 60px;
+}
+.pictures:first-child img{
+    height: 100%;
+    width: fit-content;
+}
+.pictures:nth-child(2){
+    border: 5px solid white;
+    right: 40px;
+    z-index: 2;
+}
+.pictures:nth-child(3){
+    border: 5px solid #7FBA00;
+    right: 20px;
+    z-index: 3;
+}
+.pictures:nth-child(4){
+    border: 5px solid #02A3F1;
+    z-index: 4;
+}
+.reach{
+    display: flex;
+    gap: 15px;
+}
+.view{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.viewer{
+    color: white;
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+.page2{
+    padding-bottom:100px ;
+    position: relative;
+    top: 150px;
+}
+.page2-title-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding: 80px 60px;
+}
+.sidetitle{
+    color: orangered;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+.discription{
+    margin-top: 30px;
+    color: black;
+    font-size: 30px;
+    opacity: 0.6;
+    width: 70%;
+}
+.viewbutton{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: orangered;
+    border-color:orangered ;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 40px ;
+    font-size: 20px;
+    font-weight: 700;
+}
+.viewbutton span{
+    white-space: nowrap;
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+    column-gap: 40px;
+    padding: 0 60px;
+}
+.options{
+    border-radius: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.267);
+    height: 300px;
+    
+}
+.people{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.people img{
+    width: 100%;
+}
+.person1{
+    border: 5px solid #02A3F1;
+}
+.person2{
+    border: 5px solid #7FBA00;
+
+}
+.person3{
+    border: 5px solid black;
+}
+.person4{
+    border: 5px solid #F25123;
+
+}
+#person4 , #person5{
+    height: 100%;
+    width: fit-content;
+}
+.name{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.jobtitle{
+    
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 15px;
+    opacity: 0.5;
+
+}
+.viewbuttons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(0, 0, 0, 0.336);
+    border-radius: 50px;
+    width: 180px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#viewbuttons{
+    color: orangered;
+    font-size: 20px;
+}
+.viewbuttons .fa-solid{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.492);
+}
+.page3{
+    position: relative;
+    top: 200px;
+    height: 175vh;
+}
+#title{
+   
+    text-align: center;
+    font-weight: 700;
+    font-size: 70px;
+    color: orangered;
+    padding: 50px;
+
+}
+#discription{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.474);
+    width: 55%;
+    margin-left: 320px;
+    
+}
+.parent{
+    margin-top: 100px;
+    display: flex;
+    overflow-x: scroll;
+}
+.parent::-webkit-scrollbar{
+    width: 0;
+}
+.rate{
+    border: 1px solid rgba(255, 255, 255, 0.297);
+    border-radius: 20px;
+    min-width: 400px;
+    min-height: 500px;
+}
+#normal{
+    background-image: url("/images/background_blur_edit.png");
+    background-size: cover;
+    position: relative;
+}
+.rating{
+    margin-top: 50px ;
+    margin-left: 30px;
+    font-size: 25px;
+    color: white;
+}
+.price{
+    
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-left:30px ;
+}
+.price sup{
+    font-size: 27px;
+}
+.price sub{
+    font-weight: 100;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.trial{
+    
+    color: white;
+    font-size: 18px;
+    opacity: 0.5;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.rate hr{
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 84%;
+    opacity: 0.2;
+}
+.offers{
+    color: white;
+    font-size: 18px;
+    line-height: 45px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.offers li{
+    display: flex;
+    gap: 10px;
+}
+.offer i{
+    opacity: 0.3;
+    margin-top: 9px;
+    font-size: 25px;
+}
+.choose{
+    text-align: center;
+    padding:10px 10px;
+    display: inline-block;
+    border: 1px rgba(255, 255, 255, 0.188) solid;
+    border-radius: 40px;
+    margin-left:30px ;
+    margin-top: 25px;
+    
+}
+
+.otherchoose{
+    color: white;
+}
+.most-popular{
+    background-color: orangered;
+    position: absolute;
+    right: 0;
+    top: 45px;
+    padding: 8px 15px;
+    border-radius: 40px 0 0 40px;
+}
+#normal-choose{
+    background-color: white;
+    color: black;
+}
+.fa-circle{
+    font-size: 15px;
+}
+.dots{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 80px;
+}
+.dots i{
+    color: white;
+    opacity: 0.4;
+}
+#dot2{
+    color: orangered;
+    text-shadow: 0 0 12px orangered;
+    opacity: 1;
+}
+footer{
+    background-image: url("/images/background_blur.png");
+    background-size: cover;
+    padding: 70px 60px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#msp-logo{
+    width: 90px;
+    height: 90px;
+  
+}
+#msp2{
+    font-size: 40px;
+}
+#ainshams2{
+    font-size: 20px;
+}
+#quote{
+    color: white;
+    font-size: 26px;
+    opacity: 0.5;
+}
+#read{
+    color: white;
+    font-size: 25px;
+   
+}
+.read-more-section i{
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;   
+    
+}
+.read-more-section{
+    display: flex;
+    gap: 10px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.icons>div{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.278);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fa-brands{
+    color: white;
+    font-size: 38px;
+}
+footer>div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.com-sup-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.info{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+}
+.word{
+    margin-bottom: 50px;
+}
+footer hr{
+    margin: 20px 0px;
+    height: 2px;
+    width: 100%;   
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.slides{
+    color: white;
+    font-size: 27px;
+    line-height: 45px;
+    opacity: 0.5;
+    list-style: none;
+   
+}
+#block3{
+    font-size: 22px;
+}
+#block3 li{
+    display: flex;
+    gap: 10px;
+}
+
+#at{
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    
+}
+.fa-phone-flip{
+    color: white;
+    font-size: 27px;
+    margin-top: 10px;
+  
+}
+.fa-location-dot{
+    color: white;
+    font-size: 26px;
+    margin-top: 10px;
+    
+}
