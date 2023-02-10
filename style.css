@@ -135,7 +135,7 @@ nav hr{
     
 }
 .search{
-    background-image: url("/images/background_blur.png");
+    background-image: url("images/background_blur.png");
     width: 80%;
     padding: 12px 20px;
     border-radius: 50px;
@@ -363,7 +363,7 @@ nav hr{
     min-height: 500px;
 }
 #normal{
-    background-image: url("/images/background_blur_edit.png");
+    background-image: url("images/background_blur_edit.png");
     background-size: cover;
     position: relative;
 }
@@ -464,7 +464,7 @@ nav hr{
     opacity: 1;
 }
 footer{
-    background-image: url("/images/background_blur.png");
+    background-image: url("images/background_blur.png");
     background-size: cover;
     padding: 70px 60px;
 }
